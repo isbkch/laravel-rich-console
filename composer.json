@@ -1,6 +1,6 @@
 {
-    "name": "isbkch/interactive-make",
-    "description": "Interactive make CLI replacement for Laravel",
+    "name": "isbkch/laravel-rich-console",
+    "description": "Rich and Interactive make CLI replacement for Laravel with autocompletion",
     "license": "MIT",
     "authors": [
         {
