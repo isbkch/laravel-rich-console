@@ -1,0 +1,25 @@
+{
+    "name": "isbkch/interactive-make",
+    "description": "Interactive make CLI replacement for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iLyas Bakouch",
+            "email": "isbkch@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "Isbkch\\Commands\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Isbkch\\Commands\\MakeServiceProvider"
+            ]
+        }
+    }
+}
